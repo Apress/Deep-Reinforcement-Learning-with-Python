@@ -1,0 +1,28 @@
+jupyterlab==4.0.7
+box2d-py==2.3.8
+stable-baselines3[extra]==2.3.2
+moviepy==1.0.3
+#huggingface_sb3 @ git+https://github.com/huggingface/huggingface_sb3@gymnasium-v2
+huggingface_sb3>=3.0
+gym==0.26.2
+ipywidgets
+rl_zoo3==2.3.0
+seaborn==0.13
+scipy==1.11
+wandb
+rliable
+flappy-bird-gymnasium
+matplotlib
+panda-gym @ git+https://github.com/qgallouedec/panda-gym@master
+gymnasium[mujoco-py]
+gymnasium[mujoco]
+pettingzoo[butterfly]>=1.24.0
+supersuit>=3.9.0
+
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
+tensorflow
+lightning
